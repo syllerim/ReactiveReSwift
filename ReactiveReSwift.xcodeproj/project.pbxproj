@@ -474,9 +474,11 @@
 					};
 					625E66821C1FF97E0027C288 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0920;
 					};
 					625E66991C1FFA3C0027C288 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -1044,6 +1046,8 @@
 				PRODUCT_NAME = ReactiveReSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1063,6 +1067,8 @@
 				PRODUCT_NAME = ReactiveReSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1076,6 +1082,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1088,6 +1096,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = reswift.github.io.ReactiveReSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
